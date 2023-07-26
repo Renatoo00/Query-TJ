@@ -1,0 +1,3 @@
+farm-haystack
+farm-haystack[elasticsearch]
+streamlit
