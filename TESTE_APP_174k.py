@@ -37,10 +37,6 @@ def retriever():
     return _retriever
 
 
-# @st.cache_data
-# def data():
-#    return pd.read_csv('C:\\Users\Renato Vidal\Documents\TJ-Semantico\data\legislatura\TESTE_RENATO_v2.csv')
-
 @st.cache_data
 def data():
     return load_db().get_all_documents()
